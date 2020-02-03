@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body, html {
+    font-family: poppins;
+    color: white;
+    background-color: black;
+}
+
+header {
+    height: 5vw;
+}
+
+footer{
+    height: 5vw;
+}
+
+header > a{
+    position: fixed;
+    margin: 1vw;
+    top: 0;
+    left: 0;
+    font-family: poppins;
+    font-size: 1em;
+    z-index: 100;
+    color: white;
+    text-decoration: none;
+}
+
+/* Queries desktop -----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 601px) {
+    h1 {
+    font-size: 45px;
+    margin: 0;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    h1 {
+    font-size: 1em;
+    margin: 0;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    h2 {
+    font-size: 30px;
+    margin: 0;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    h2 {
+    font-size: 2em;
+    margin: 0;
+    }
+}
+
+p{
+    margin: 0;
+}
+
+span{
+    color: red;
+}
+
+@media screen and (min-width: 601px) {
+    #about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    #about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    #title_about{
+    width: 20vw;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    #title_about{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    #desc_about{
+    margin-top: 10px;
+    width: 60vw;
+    word-wrap: break-word;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    #desc_about{
+    width: 80vw;
+    word-wrap: break-word;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    #CV{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    #CV{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+}
+
+#parts {
+    width: 80vw;
+}
+
+@media screen and (min-width: 601px) {
+    .sk_xp_sc{
+    margin-top: 10vh;
+    width: 100%;
+    display: flex;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .sk_xp_sc{
+    margin-top: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .title{
+    width: 30vw;
+    margin-left: 10vw;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .title{
+    width: 80vw;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .desc{
+    width: 50vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .desc{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+.dt_pl{
+    display: flex;
+    flex-direction: column;    
+}
+
+.dt_na{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.place{
+    color: gray;
+}
+
+#pi_co{
+    display: flex;
+    flex-direction: column;
+}
+
+#co{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+#co a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+/* Queries mobil -----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+

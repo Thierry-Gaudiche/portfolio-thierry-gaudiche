@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #F5F5F5;
+	font-family: poppins;
+}
+header > a{
+	position: fixed;
+	margin: 1em;
+	top: 0;
+	left: 0;
+	font-size: 1em;
+	z-index: 100;
+	color: white;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 601px) {
+  	h4{
+	margin: 0;
+	font-size: 25px;	
+	}
+}
+
+p{
+	margin: 0;
+}
+
+
+
+.scroll {
+  padding: 1px;
+  height: 100vh;
+  background-color: black;
+  color: #F5F5F5; 
+}
+
+#down {
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;	
+	justify-content: space-evenly;
+}
+
+
+
+@media screen and (min-width: 601px) {
+  	h1 {
+		font-size: 10em;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 600px) {
+  	h1 {
+		font-size: 50px;
+		margin: 0;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	h2{
+		font-size: 5em;
+		margin-right: 2em;
+		margin-left: 2em;
+		margin-top: 0;
+		margin-top: 0;
+}
+}
+
+@media screen and (max-width: 600px) {
+	h2{
+		font-size: 20px;
+		margin-right: 2em;
+		margin-left: 2em;
+		margin-top: 0;
+		margin-top: 0;
+}
+}
+
+
+@media screen and (min-width: 601px) {
+  	h3{
+		font-size: 3em;
+		vertical-align: bottom;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 600px) {
+  	h3{
+		font-size: 2em;
+		vertical-align: bottom;
+		margin: 0;
+	}
+}
+
+#projets_reveal{
+	display: flex;
+	width:100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (min-width: 601px) {
+  	#projets_reveal > div{
+		width: 80vw;
+		height: 80vh;
+		position: absolute;
+	}
+}
+
+@media screen and (max-width: 600px) {
+  	#projets_reveal > div{
+		width: 80vw;
+		height: 30vh;
+		position: absolute;
+	}
+}
+
+#projets_reveal img{
+	width: 100%;
+	height: 100%;
+	box-shadow: 8px 8px 12px #aaa;
+	border-radius: 30px;
+}
+
+#projet_1_2 {
+	z-index: 3;
+}
+
+#projet_1 {
+	z-index: 2;
+}
+
+#projet_1:hover {
+	background-color: black;
+	border-radius: 30px;
+}
+
+#projet_1  img:hover {
+	opacity: 0.5;
+	transition: 0.2s;
+}
+
+#projTxt_1{
+	z-index: 0;
+}
+
+@media screen and (max-width: 600px) {
+  	#projTxt_1{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	}
+}
+
+#projet_2 {
+	z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+  	#projTxt_2{
+	display: flex;
+	flex-direction: column;
+	}
+}
+
+#projet_2:hover {
+	background-color: black;
+	border-radius: 30px;
+}
+
+#projet_2  img:hover {
+	opacity: 0.5;
+	transition: 0.2s;
+}
+
+#projTxt_1  {
+	opacity: 0;
+	display: flex;		
+	flex-direction: column;	
+	justify-content: center;
+}
+
+#projTxt_1 h2 {
+	margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+	.desc12 {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	#projTxt_1 h3 {
+		font-size: 100px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#projTxt_1 h3 {
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	#projTxt_1 h4 {
+		font-size: 50px;
+		color: grey;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#projTxt_1 h4 {
+		font-size: 10px;
+		color: grey;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	#projTxt_1 p {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#projTxt_1 p {
+		font-size: 5px;
+	}
+}
+
+#projTxt_2  {
+	opacity: 0;
+	display: flex;		
+	flex-direction: column;	
+	justify-content: center;	
+}
+
+#projTxt_2 h2 {
+	margin: 0;
+}
+
+@media screen and (min-width: 601px) {
+	#projTxt_2 h3 {
+		font-size: 100px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#projTxt_2 h3 {
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	#projTxt_2 h4 {
+		font-size: 50px;
+		color: grey;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#projTxt_2 h4 {
+		font-size: 10px;
+		color: grey;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	#projTxt_2 p {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#projTxt_2 p {
+		font-size: 5px;
+	}
+}
+
+#projets_3_4{
+	background-color: black;
+	color: white;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+	.projet{
+	height: 50vh;
+	width: 100%;
+	display: flex;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.projet{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
+}
+@media screen and (max-width: 600px) {
+	.description{
+	display: none;
+	height: 0%;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.descproj_right, .descproj_right_5, .descproj_left, .descproj_left_6{
+	width: 50%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-right: 10vh;
+	padding-left: 10vh;
+	z-index: 1;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.descproj_right, .descproj_right_5, .descproj_left, .descproj_left_6{
+	width: 80%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 1;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.descproj_right, .descproj_right_5, .descproj_left, .descproj_left_6{
+	width: 80%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 1;
+	}
+}
+
+.descproj_right p,.descproj_left p, {
+	width: 80%;
+}
+
+@media screen and (min-width: 600px) {
+	.imgproj_left{
+	width: 50%;
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	padding-left: 10vh;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.imgproj_left{
+	width: 100%;
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	padding-top: 5vh;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.imgproj_right{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 10vh;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.imgproj_right{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+}
+
+.imgproj_left img, .imgproj_right img {
+	width: 80%;
+	border-radius: 30px;
+	z-index: 2;
+}
+
+.imgproj_left:hover, .imgproj_right:hover{
+	opacity: 0.5;
+}
+
+#projets_5_6{
+	background-color: white;
+	color: black;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+#img5, #img6{
+	box-shadow: 8px 8px 12px #aaa;
+}
+
+@media screen and (min-width: 601px) {
+  	#id > h4{
+	margin-top: 0;
+	font-size: 12px;	
+	}
+}
